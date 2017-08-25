@@ -49,5 +49,9 @@ Muitas APIs gostam de retornar as informações de paginas adicionais, como uma 
 Códigos de Status HTTP
 https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
+Substituindo o método HTTP
 
+Alguns clientes HTTP só podem trabalhar com solicitações GET e POST simples. Para aumentar a acessibilidade a esses clientes limitados, a API precisa de uma maneira de substituir o método HTTP. Embora não existam padrões rígidos aqui, a convenção popular é aceitar um cabeçalho de solicitação X-HTTP-Method-Override com um valor de string contendo um de PUT, PATCH ou DELETE.
+
+Observe que o cabeçalho de substituição só deve ser aceito nos pedidos POST. Os pedidos GET nunca devem mudar os dados no servidor !
 
