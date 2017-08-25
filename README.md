@@ -46,6 +46,8 @@ https://tools.ietf.org/html/rfc5988#page-6
 
 Muitas APIs gostam de retornar as informações de paginas adicionais, como uma contagem do número total de resultados disponíveis. Uma API que exige o envio de uma contagem pode usar um cabeçalho HTTP personalizado como X-Total-Count .
 
+Códigos de Status HTTP
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
 
 
