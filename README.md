@@ -1,4 +1,4 @@
-# conceito-restfull
+# conceito-restful
 
 Canais de estudo:
 
